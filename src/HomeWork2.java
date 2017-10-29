@@ -4,7 +4,11 @@ public class HomeWork2{
 
 		try{
 			System.out.println("Hello " + args[0]);
-		}catch(Exception ex){
+		}catch(ArrayIndexOutOfBoundsException ex){
+			System.out.println("ERROR: " + ex);
+			System.out.println("Add some parametr. For example: WORLD _" + ex);
+		}
+		catch(Exception ex){
 			System.out.println("ERROR: " + ex);
 		}
 	}
