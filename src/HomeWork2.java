@@ -6,7 +6,7 @@ public class HomeWork2{
 			System.out.println("Hello " + args[0]);
 		}catch(ArrayIndexOutOfBoundsException ex){
 			System.out.println("ERROR: " + ex);
-			System.out.println("Add some parametr. For example: WORLD _" + ex);
+			System.out.println("Add some parameter. For example: WORLD");
 		}
 		catch(Exception ex){
 			System.out.println("ERROR: " + ex);
